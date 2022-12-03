@@ -45,7 +45,7 @@ console.log(access)
     this.setState({isauthenthicated:true,token:access['access']})
   }
   else {
-    localStorage.setItem('isauthenthicated',false)
+    localStorage.setItem('isAuthenthicated',false)
     this.setState({isauthenthicated:false})
   }
 }
